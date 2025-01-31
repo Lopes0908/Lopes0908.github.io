@@ -9,7 +9,7 @@
   <p>Entre em contato para adquirir as peças: (67) 93505-8192</p>
   
   <div>
-    <button on:click={() => window.location.href='/categoria'} style="background-color: #b76e79; color: white;">Categoria 1</button>
+    <button on:click={() => window.location.href='/categoria1'} style="background-color: #b76e79; color: white;">Categoria 1</button>
     <button on:click={() => window.location.href='/categoria2'} style="background-color: #b76e79; color: white;">Categoria 2</button>    
   </div>
 </main>
