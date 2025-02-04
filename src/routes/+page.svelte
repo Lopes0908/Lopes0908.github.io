@@ -9,12 +9,20 @@
   <p>Entre em contato para adquirir as peças: (67) 93505-8192</p>
   
   <div>
-    <button on:click={() => window.location.href='/categoria1'} >Categoria 1</button>
-    <button on:click={() => window.location.href='/categoria2'} >Categoria 2</button>    
+    <button on:click={() => window.location.href='/categoria1'} style="color:black">Categoria 1</button>
+    <button on:click={() => window.location.href='/categoria2'} style="color:black">Categoria 2</button>    
   </div>
 </main>
   
 <style>
+   button:hover {
+        transform: scale(1.1); /* Aumenta o botão */
+        background-color: #b76e79; /* Muda a cor de fundo */
+    }
+    button:active {
+        transform: scale(0.95); /* Diminui o botão */
+        background-color: #b76e79; /* Muda a cor de fundo para um tom mais escuro */
+    }
   main {
     text-align: center;
     padding: 20px;
