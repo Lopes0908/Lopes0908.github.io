@@ -9,8 +9,8 @@
   <p>Entre em contato para adquirir as peças: (67) 93505-8192</p>
   
   <div>
-    <button on:click={() => window.location.href='/categoria1'} style="background-color: #b76e79; color: white;">Categoria 1</button>
-    <button on:click={() => window.location.href='/categoria2'} style="background-color: #b76e79; color: white;">Categoria 2</button>    
+    <button on:click={() => window.location.href='/categoria1'} ><img width="150px" src="/maça.png" alt=""></button>
+    <button on:click={() => window.location.href='/categoria2'} >Categoria 2</button>    
   </div>
 </main>
   
@@ -27,6 +27,8 @@
     margin: 10px;
     padding: 10px;
     font-size: 16px;
+    background-color: transparent;
+    border: none;
   }
 </style>
 
