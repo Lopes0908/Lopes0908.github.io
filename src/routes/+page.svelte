@@ -9,8 +9,8 @@
   <p>Entre em contato para adquirir as peças: (67) 93505-8192</p>
   
   <div>
-    <button on:click={() => window.location.href='/categoria1'} style="color:black">Categoria 1</button>
-    <button on:click={() => window.location.href='/categoria2'} style="color:black">Categoria 2</button>    
+    <button on:click={() => window.location.href='/categoria1'} style="color:black">Peças Femininas</button>
+    <button on:click={() => window.location.href='/categoria2'} style="color:black">Peças Masculinas</button>    
   </div>
 </main>
   
@@ -30,13 +30,22 @@
     color: white; /* Ajuste a cor do texto */
     height: 100vh; /* Garante que o main tenha altura total da tela */
   }
-
+  @media (max-width: 600px) {
+        button {
+            font-size: 16px; /* Diminui o tamanho da fonte em telas pequenas */
+            padding: 10px 20px; /* Ajusta o padding em dispositivos móveis */
+        }
+    }
   button {
+    border: 2px solid black;
     margin: 10px;
     padding: 10px;
     font-size: 16px;
     background-color: #b76e79;
     border-color: #FFD700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 8px; /* Bordas arredondadas */
   }
 </style>
 
