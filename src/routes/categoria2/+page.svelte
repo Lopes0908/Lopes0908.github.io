@@ -1,1 +1,2 @@
-categoria 1
+<!-- src/routes/categoria2.svelte -->
+oi
