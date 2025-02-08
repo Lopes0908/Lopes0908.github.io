@@ -24,8 +24,8 @@
     }
   
     img {
-      max-width: 100%;
-      height: auto;
+      max-width: 10%;
+      height: 10%;
     }
   
     h2 {

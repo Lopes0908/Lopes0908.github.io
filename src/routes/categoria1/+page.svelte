@@ -4,19 +4,35 @@
     const produtos = [
         {
             nome: "Camiseta Estampada",
-            imagem: "/images/camiseta.jpg",
-            preco: "R$ 39,90",
+            imagem: "/images/f1.jpg",
+            preco: "R$ 90,00",
             tamanhos: ["P", "M", "G"],
             cores: ["Azul", "Preto", "Branco"]
         },
         {
             nome: "Calça Jeans",
-            imagem: "/images/calca.jpg",
-            preco: "R$ 89,90",
+            imagem: "/images/f2.jpg",
+            preco: "R$ 177,00",
             tamanhos: ["38", "40", "42", "44"],
             cores: ["Azul Claro", "Preto"]
-        }
+        },
+        {
+            nome: "Camiseta Estampada",
+            imagem: "/images/f3.jpg",
+            preco: "R$ 188,00",
+            tamanhos: ["P", "M", "G"],
+            cores: ["Azul", "Preto", "Branco"]
+        },
+        {
+            nome: "Camiseta Estampada",
+            imagem: "/images/f4.jpg",
+            preco: "R$ 170,00",
+            tamanhos: ["P", "M", "G"],
+            cores: ["Azul", "Preto", "Branco"]
+        },
     ];
+
+    
 </script>
 
 <main>
@@ -45,7 +61,7 @@
     padding: 20px;
     background-color: darkred;
     color: white; /* Ajuste a cor do texto */
-    height: 100vh; /* Garante que o main tenha altura total da tela */
+    height: auto; /* Garante que o main tenha altura total da tela */
   }
   @media (max-width: 600px) {
         button {

@@ -5,15 +5,15 @@ import Produto from '../../components/Produto.svelte';
 const produtos = [
   {
     nome: "Tênis Casual",
-    imagem: "/images/tenis.jpg",
-    preco: "R$ 159,90",
+    imagem: "/images/m1.jpg",
+    preco: "R$ 138,00",
     tamanhos: ["36", "37", "38", "39"],
     cores: ["Cinza", "Preto", "Branco"]
   },
   {
     nome: "Bolsa de Couro",
-    imagem: "/images/bolsa.jpg",
-    preco: "R$ 199,90",
+    imagem: "/images/m2.jpg",
+    preco: "R$ 80,00",
     tamanhos: ["Único"],
     cores: ["Preto", "Marrom"]
   }
@@ -49,7 +49,7 @@ const produtos = [
     padding: 20px;
     background-color: darkred;
     color: white; /* Ajuste a cor do texto */
-    height: 100vh; /* Garante que o main tenha altura total da tela */
+    height: auto; /* Garante que o main tenha altura total da tela */
   }
   @media (max-width: 600px) {
         button {
