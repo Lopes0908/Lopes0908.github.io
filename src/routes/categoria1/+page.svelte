@@ -1,16 +1,35 @@
 <script>
+    import Produto from '../../components/Produto.svelte';
 
-    // Não precisamos de lógica no momento
+    const produtos = [
+        {
+            nome: "Camiseta Estampada",
+            imagem: "/images/camiseta.jpg",
+            preco: "R$ 39,90",
+            tamanhos: ["P", "M", "G"],
+            cores: ["Azul", "Preto", "Branco"]
+        },
+        {
+            nome: "Calça Jeans",
+            imagem: "/images/calca.jpg",
+            preco: "R$ 89,90",
+            tamanhos: ["38", "40", "42", "44"],
+            cores: ["Azul Claro", "Preto"]
+        }
+    ];
 </script>
-  
+
 <main>
- 
-  
-<div>
+    <h1 style="color: #b76e79; font-family: 'Ballpark Weiner', cursive;">Aba de Peças Femininas</h1>
     <button on:click={() => window.location.replace('/')} style="color:black">Voltar para a Página Inicial</button>
    
-    <button on:click={() => window.location.href='/categoria2'} style="color:black">Peças Masculinas</button>    
-  </div>
+    <button on:click={() => window.location.href='/categoria2'} style="color:black">Peças Masculinas</button> 
+    
+    <div class="produtos">
+        {#each produtos as produto}
+            <Produto {...produto} />
+        {/each}
+    </div>
 </main>
   
 <style>
