@@ -24,6 +24,12 @@
     }
   
     img {
+      border: 2px solid black;
+      padding: 10px;
+      margin: 10px;
+      cursor: pointer;
+      border-color: #FFD700;
+      border-radius: 8px;
       max-width: 10%;
       height: 10%;
     }

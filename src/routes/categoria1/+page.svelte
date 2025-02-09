@@ -43,7 +43,9 @@
     
     <div class="produtos">
         {#each produtos as produto}
-            <Produto {...produto} />
+            <div on:click={() => window.open(produto.imagem, '_blank')}>
+                <Produto {...produto} />
+            </div>
         {/each}
     </div>
 </main>
