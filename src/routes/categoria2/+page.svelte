@@ -4,18 +4,18 @@ import Produto from '../../components/Produto.svelte';
 
 const produtos = [
   {
-    nome: "Tênis Casual",
+    nome: "Cueca samba canção de algodão egípcio",
     imagem: "/images/m1.jpg",
     preco: "R$ 138,00",
-    tamanhos: ["36", "37", "38", "39"],
-    cores: ["Cinza", "Preto", "Branco"]
+    tamanhos: ["Consultar com o fornecedor"],
+    cores: ["Consultar com o fornecedor"]
   },
   {
-    nome: "Bolsa de Couro",
+    nome: "cueca sem costura de microfibra",
     imagem: "/images/m2.jpg",
     preco: "R$ 80,00",
-    tamanhos: ["Único"],
-    cores: ["Preto", "Marrom"]
+    tamanhos: ["consultar com o fornecedor"],
+    cores: ["consultar com o fornecedor"]
   }
 ];
     // Não precisamos de lógica no momento

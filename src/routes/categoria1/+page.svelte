@@ -3,32 +3,32 @@
 
     const produtos = [
         {
-            nome: "Camiseta Estampada",
+            nome: "Sutiã nadador",
             imagem: "/images/f1.jpg",
             preco: "R$ 90,00",
-            tamanhos: ["P", "M", "G"],
-            cores: ["Azul", "Preto", "Branco"]
+            tamanhos: ["M"],
+            cores: ["Nude"]
         },
         {
-            nome: "Calça Jeans",
+            nome: "Conjunto renda",
             imagem: "/images/f2.jpg",
             preco: "R$ 177,00",
-            tamanhos: ["38", "40", "42", "44"],
-            cores: ["Azul Claro", "Preto"]
+            tamanhos: ["M"],
+            cores: ["Bicolor"]
         },
         {
-            nome: "Camiseta Estampada",
+            nome: "Conjunto de cropped",
             imagem: "/images/f3.jpg",
             preco: "R$ 188,00",
-            tamanhos: ["P", "M", "G"],
-            cores: ["Azul", "Preto", "Branco"]
+            tamanhos: ["M"],
+            cores: ["Vermelho"]
         },
         {
-            nome: "Camiseta Estampada",
+            nome: "Conjunto rendado",
             imagem: "/images/f4.jpg",
             preco: "R$ 170,00",
-            tamanhos: ["P", "M", "G"],
-            cores: ["Azul", "Preto", "Branco"]
+            tamanhos: ["M"],
+            cores: ["Nude"]
         },
     ];
 
