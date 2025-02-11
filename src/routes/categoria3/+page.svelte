@@ -105,7 +105,6 @@
 	}
 	main {
 		padding: 20px;
-		background-color: darkred;
 		color: white; /* Ajuste a cor do texto */
 		height: auto; /* Garante que o main tenha altura total da tela */
 	}
