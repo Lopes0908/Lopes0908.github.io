@@ -50,9 +50,9 @@
   </div>
 
   {#each filterProdutos() as produto}
-      <div on:click={() => window.open(produto.imagem, '_blank')}>
           <Produto {...produto} />
-      </div>
+      {:else}
+        <center><br><br><p style="color: black; font-size: 20px;">Nenhum produto encontrado</p></center>
   {/each}
 </main>
 
@@ -136,3 +136,11 @@ option:value {
 
 <!-- Adicionando o link da fonte Ballpark Weiner -->
 <link href="https://fonts.googleapis.com/css2?family=Ballpark+Weiner&display=swap" rel="stylesheet">
+
+<svelte:head>
+    <style>
+        body{
+        background-color: darkred;
+        }
+    </style>
+</svelte:head>
