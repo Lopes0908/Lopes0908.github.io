@@ -14,21 +14,21 @@
 	const produtos = [
 		{
 			nome: 'Conjunto',
-			imagem: '/images/f.jpg',
+			imagem: '/images/f1.jpg',
 			preco: 'R$ 192,00',
 			tamanhos: ['P'],
 			cores: ['Preto']
 		},
 		{
 			nome: 'Conjunto renda bicolor',
-			imagem: '/images/f.jpg',
+			imagem: '/images/f2.jpg',
 			preco: 'R$ 177,00',
 			tamanhos: ['M'],
 			cores: ['Vinho']
 		},
 		{
 			nome: 'Conjunto de cropped',
-			imagem: '/images/f.jpg',
+			imagem: '/images/f3.jpg',
 			preco: 'R$ 188,00',
 			tamanhos: ['M'],
 			cores: ['Vermelho']
@@ -49,28 +49,28 @@
 		},
 		{
 			nome: 'Conjunto',
-			imagem: '/images/f.jpg',
+			imagem: '/images/f6.jpg',
 			preco: 'R$ 178,00',
 			tamanhos: ['G'],
 			cores: ['Preto']
 		},
 		{
 			nome: 'Conjunto com laços',
-			imagem: '/images/f.jpg',
+			imagem: '/images/f7.jpg',
 			preco: 'R$ 175,00',
 			tamanhos: ['M'],
 			cores: ['Divino']
 		},
 		{
 			nome: 'Conjunto',
-			imagem: '/images/f.jpg',
+			imagem: '/images/f8.jpg',
 			preco: 'R$ 230,00',
 			tamanhos: ['G'],
 			cores: ['Bicolor']
 		},
 		{
 			nome: 'Conjunto com bojo soft',
-			imagem: '/images/f.jpg',
+			imagem: '/images/f9.jpg',
 			preco: 'R$ 176,00',
 			tamanhos: ['G'],
 			cores: ['Lavanda']
