@@ -1,20 +1,32 @@
 <script>
 	import Produto from '../../components/Produto.svelte';
+	import { onMount } from 'svelte';
 
-	const produtos = [
+	onMount(() => {
+		const btnTopo = document.getElementById('f4');
+		btnTopo.onclick = function () {
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+			});
+		};
+	});
+    const produtos = [
 		{
 			nome: 'Cueca samba canção de algodão egípcio',
 			imagem: '/images/m1.jpg',
 			preco: 'R$ 138,00',
 			tamanhos: ['Consultar com o fornecedor'],
-			cores: ['consultar com o fornecedor']
+			cores: ['consultar com o fornecedor'],
+			estoque: 'Disonível',
 		},
 		{
 			nome: 'Cueca sem costura de microfibra',
 			imagem: '/images/m2.jpg',
 			preco: 'R$ 80,00',
 			tamanhos: ['Consultar com o fornecedor'],
-			cores: ['Consultar com o fornecedor']
+			cores: ['Consultar com o fornecedor'],
+			estoque: 'Disonível',
 		}
 	];
 
@@ -41,6 +53,9 @@
 	<button on:click={() => (window.location.href = '/categoria3')} style="color:black"
 		>Peças Avulsas</button
 	>
+	<button on:click={() => (window.location.href = '/categoria4')} style="color:black"
+		>Pijamas e Camisolas</button
+		>
 	<div>
 		<label for="tamanho" style="color: black;">Selecionar Tamanho:</label>
 		<select id="tamanho" bind:value={selectedTamanho}>
@@ -64,6 +79,8 @@
 		>
 	{/each}
 </main>
+
+<button id="f4">topo</button>
 
 <!-- Adicionando o link da fonte Ballpark Weiner -->
 <link

@@ -15,8 +15,12 @@
 		<button on:click={() => (window.location.href = '/categoria2')} style="color:black"
 			>Peças Masculinas</button
 		>
+		<br>
 		<button on:click={() => (window.location.href = '/categoria3')} style="color:black"
 			>Femininas avulsas</button
+		>
+		<button on:click={() => (window.location.href = '/categoria4')} style="color:black"
+			>Pijamas e Camisolas</button
 		>
 	</div>
 </main>

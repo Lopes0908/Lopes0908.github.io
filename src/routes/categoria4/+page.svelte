@@ -13,27 +13,44 @@
 	});
     const produtos = [
 		{
-			nome: 'Sutiã nadador',
-			imagem: '/images/fa1.jpg',
-			preco: 'R$ 90,00',
+		    nome: 'Pijama Canelado',
+			imagem: '/images/p1.jpg',
+			estoque: 'Em estoque',
+			preco: 'R$ 230,00',
 			tamanhos: ['M'],
-			cores: ['Nude'],
-			estoque: 'Disonível',
+			cores: ['Verde'],
+			estoque: 'Esgotado',
 		},
 		{
-			nome: 'Cueca sem costura de microfibra',
-			imagem: '/images/fa2.jpg',
-			preco: 'R$ 58,00',
+			nome: 'Pijama Canelado',
+			imagem: '/images/p2.jpg',
+			preco: 'R$ 230,00',
+			tamanhos: ['G'],
+			cores: ['Bicolor'],
+			estoque: 'Esgotado',
+		},
+		{
+			nome: 'Pijama Canelado',
+			imagem: '/images/p3.jpg',
+			preco: 'R$ 230,00',
 			tamanhos: ['GG'],
-			cores: ['Nude', 'Divino', 'Azul marinho'],
+			cores: ['Bicolor'],
 			estoque: 'Disonível',
 		},
 		{
-			nome: 'Calcinha Reforcada',
-			imagem: '/images/fa3.jpg',
-			preco: 'R$ 60,00',
+			nome: 'Camisola de liganetie',
+			imagem: '/images/c1.jpg',
+			preco: 'R$ 180,00',
+			tamanhos: ['G'],
+			cores: ['Sandia'],
+			estoque: 'Disonível',
+		},
+		{
+			nome: 'Camisola de liganetie',
+			imagem: '/images/c2.jpg',
+			preco: 'R$ 180,00',
 			tamanhos: ['M'],
-			cores: ['Nude', 'Romance', 'Preto'],
+			cores: ['Lichia'],
 			estoque: 'Disonível',
 		},
 	];
@@ -51,8 +68,8 @@
 </script>
 
 <main>
-	<h1 style="color: #b76e79; font-family: 'Ballpark Weiner', cursive;">Aba de Peças Avulsas</h1>
-	<button on:click={() => window.location.replace('/')} style="color:black"
+	<h1 style="color: #b76e79; font-family: 'Ballpark Weiner', cursive;">Aba de Pijamas</h1>
+	<button on:click={() => window.location.replace('/')} style="color:blacl"
 		>Voltar para a Página Inicial</button
 	>
 	<button on:click={() => (window.location.href = '/categoria1')} style="color:black"
@@ -61,14 +78,15 @@
 	<button on:click={() => (window.location.href = '/categoria2')} style="color:black"
 		>Peças Masculinas</button
 	>
-    <button on:click={() => (window.location.href = '/categoria4')} style="color:black"
-		>Pijamas e Camisolas</button
-		>
+    <button on:click={() => (window.location.href = '/categoria3')} style="color:black"
+		>Peças Avulsas</button
+        >
 	<div>
 		<label for="tamanho" style="color: black;">Selecionar Tamanho:</label>
 		<select id="tamanho" bind:value={selectedTamanho}>
 			<option value="">Todos</option>
 			<option value="M">M</option>
+			<option value="G">G</option>
 			<option value="GG">GG</option>
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
@@ -76,11 +94,10 @@
 		<label for="cor" style="color: black;">Selecionar Cor:</label>
 		<select id="cor" bind:value={selectedCor}>
 			<option value="">Todos</option>
-			<option value="Nude">Nude</option>
-			<option value="Divino">Divino</option>
-			<option value="Azul marinho">Azul marinho</option>
-			<option value="Romance">Romance</option>
-			<option value="Preto">Preto</option>
+			<option value="Verde">Verde</option>
+			<option value="Bicolor">Bicolor</option>
+			<option value="Sandia">Sandia</option>
+			<option value="Lichia">Lichia</option>
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
 	</div>
