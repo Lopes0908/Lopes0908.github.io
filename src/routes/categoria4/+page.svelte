@@ -51,7 +51,7 @@
 			preco: 'R$ 180,00',
 			tamanhos: ['M'],
 			cores: ['Lichia'],
-			estoque: 'Disonível',
+			estoque: 'Esgotado',
 		},
 	];
 

@@ -67,7 +67,7 @@
 			preco: 'R$ 175,00',
 			tamanhos: ['M'],
 			cores: ['Divino'],
-			estoque: 'Disonível',
+			estoque: 'Esgotado',
 		},
 		{
 			nome: 'Conjunto',
@@ -91,7 +91,7 @@
 			preco: 'R$ 180,00',
 			tamanhos: ['G', 'GG'],
 			cores: ['Nude'],
-			estoque: 'Disonível',
+			estoque: 'GG Esgotado',
 		},
 		{
 			nome: 'Conjunto básico',
@@ -99,7 +99,7 @@
 			preco: 'R$ 180,00',
 			tamanhos: ['G', 'GG', 'M'],
 			cores: ['Odalisca'],
-			estoque: 'Disonível',
+			estoque: 'GG e M Esgotado',
 		},
 		{
 			nome: 'Conjunto básico',
@@ -107,7 +107,7 @@
 			preco: 'R$ 180,00',
 			tamanhos: ['GG','M'],
 			cores: ['Verde claro'],
-			estoque: 'Disonível',
+			estoque: 'GG Esgotado',
 		},
 		{
 			nome: 'Conjunto Reforçado',
@@ -115,7 +115,7 @@
 			preco: 'R$ 194,00',
 			tamanhos: ['G','GG'],
 			cores: ['Nude'],
-			estoque: 'Disonível',
+			estoque: 'GG Esgotado',
 		},
 		{
 			nome: 'Conjunto Reforçado',
@@ -139,7 +139,7 @@
 			preco: 'R$ 178,00',
 			tamanhos: ['M'],
 			cores: ['Verde claro'],
-			estoque: 'Disonível',
+			estoque: 'Esgotado',
 		},
 		{
 			nome: 'Conjunto de Renda',
@@ -163,7 +163,7 @@
 			preco: 'R$ 160,00',
 			tamanhos: ['M'],
 			cores: ['Rosa'],
-			estoque: 'Disonível',
+			estoque: 'Esgotado',
 		},
 		{
 			nome: 'Conjunto de bojo confort',
