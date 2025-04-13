@@ -75,7 +75,7 @@
 			preco: 'R$ 230,00',
 			tamanhos: ['G'],
 			cores: ['Bicolor'],
-			estoque: 'Disonível',
+			estoque: 'Esgotado',
 		},
 		{
 			nome: 'Conjunto com bojo soft',
@@ -99,7 +99,7 @@
 			preco: 'R$ 180,00',
 			tamanhos: ['G', 'GG', 'M'],
 			cores: ['Odalisca'],
-			estoque: 'GG e M Esgotado',
+			estoque: 'GG Esgotado',
 		},
 		{
 			nome: 'Conjunto básico',
