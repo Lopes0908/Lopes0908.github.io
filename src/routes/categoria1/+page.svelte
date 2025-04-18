@@ -43,7 +43,7 @@
 			preco: 'R$ 170,00',
 			tamanhos: ['M'],
 			cores: ['Nude'],
-			estoque: 'Disonível',
+			estoque: 'Esgotado',
 		},
 		{
 			nome: 'Conjunto com laços',
@@ -107,7 +107,7 @@
 			preco: 'R$ 180,00',
 			tamanhos: ['GG','M'],
 			cores: ['Verde claro'],
-			estoque: 'GG Esgotado',
+			estoque: 'Esgotado',
 		},
 		{
 			nome: 'Conjunto Reforçado',
