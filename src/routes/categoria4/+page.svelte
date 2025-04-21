@@ -43,7 +43,7 @@
 			preco: 'R$ 180,00',
 			tamanhos: ['G'],
 			cores: ['Sandia'],
-			estoque: 'Disonível',
+			estoque: 'Esgotado',
 		},
 		{
 			nome: 'Camisola de liganetie',

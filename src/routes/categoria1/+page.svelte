@@ -131,7 +131,7 @@
 			preco: 'R$ 178,00',
 			tamanhos: ['G'],
 			cores: ['Nude'],
-			estoque: 'Disonível',
+			estoque: 'Esgotado',
 		},
 		{
 			nome: 'Conjunto de Renda',
@@ -155,7 +155,7 @@
 			preco: 'R$ 160,00',
 			tamanhos: ['M'],
 			cores: ['Azul claro'],
-			estoque: 'Disonível',
+			estoque: 'Esgotado',
 		},
 		{
 			nome: 'Conjunto de bojo confort',
@@ -171,7 +171,7 @@
 			preco: 'R$ 160,00',
 			tamanhos: ['M'],
 			cores: ['Divino'],
-			estoque: 'Disonível',
+			estoque: 'Esgotado',
 		},
 	];
 

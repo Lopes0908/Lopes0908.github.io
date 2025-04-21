@@ -34,7 +34,7 @@
 			preco: 'R$ 60,00',
 			tamanhos: ['M'],
 			cores: ['Nude', 'Romance', 'Preto'],
-			estoque: 'Nude e Romance Esgotados',
+			estoque: 'Esgotado',
 		},
 	];
 
