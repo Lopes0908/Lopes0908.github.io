@@ -38,7 +38,14 @@
 		transform: translateY(-5px);
 		box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 	}
-
+    .produto:active {
+		transform: translateY(5px);
+		box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+	}
+	.produto:focus {
+		outline: none;
+		box-shadow: 0 0 0 4px rgba(255, 215, 0, 0.5);
+	}
 	img {
 		width: 100%;
 		height: auto;
