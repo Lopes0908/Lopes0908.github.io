@@ -21,7 +21,7 @@
 			estoque: 'Disonível',
 		},
 		{
-			nome: 'Cueca sem costura de microfibra',
+			nome: 'Calcinha fio dupla com pala',
 			imagem: '/images/fa2.jpg',
 			preco: 'R$ 58,00',
 			tamanhos: ['GG'],

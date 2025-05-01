@@ -25,7 +25,8 @@
 		align-items: center;
 		background-color: #b76e79; /* Muda a cor de fundo */
 		border: 2px solid #ffd700;
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		border-radius: 8px solid #ffd700;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 900);
 		border-radius: 12px;
 		padding: 20px;
 		margin: 10px;
@@ -43,6 +44,8 @@
 		height: auto;
 		border-radius: 8px;
 		margin-bottom: 15px;
+		border: 2px solid #ffd700;
+		border-radius: 8px solid #ffd700;
 	}
 
 	.produto-info {
@@ -52,15 +55,15 @@
 	h2 {
 		font-size: 1.5rem;
 		margin-bottom: 10px;
-		color: white;
+		color: black;
 	}
 
 	p {
 		margin: 5px 0;
-		color: white;
+		color: black;
 	}
 
 	p strong {
-		color: white;
+		color: black;
 	}
 </style>
