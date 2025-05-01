@@ -8,41 +8,59 @@
 </script>
 
 <div class="produto">
-	<a href={imagem}> <img src={imagem} alt={nome} /></a>
-	<h2>{nome}</h2>
-	<p>Estoque: {estoque}</p>
-	<p>Preço: {preco}</p>
-	<p>Tamanhos: {tamanhos.join(', ')}</p>
-	<p>Cores: {cores.join(', ')}</p>
+	<img src={imagem} alt={nome} />
+	<div class="produto-info">
+		<h2>{nome}</h2>
+		<p><strong>Estoque:</strong> {estoque}</p>
+		<p><strong>Preço:</strong> {preco}</p>
+		<p><strong>Tamanhos:</strong> {tamanhos.join(', ')}</p>
+		<p><strong>Cores:</strong> {cores.join(', ')}</p>
+	</div>
 </div>
 
 <style>
 	.produto {
-		border: 2px solid black;
-		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #b76e79; /* Muda a cor de fundo */
+		border: 2px solid #ffd700;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		border-radius: 12px;
+		padding: 20px;
 		margin: 10px;
-		border-color: #ffd700;
-		border-radius: 8px; /* Bordas arredondadas */
-		text-align: center;
+		width: 300px;
+		transition: transform 0.2s, box-shadow 0.2s;
+	}
+
+	.produto:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 	}
 
 	img {
-		border: 2px solid black;
-		padding: 10px;
-		margin: 10px;
-		cursor: pointer;
-		border-color: #ffd700;
+		width: 100%;
+		height: auto;
 		border-radius: 8px;
-		max-width: 10%;
-		height: 10%;
+		margin-bottom: 15px;
+	}
+
+	.produto-info {
+		text-align: center;
 	}
 
 	h2 {
 		font-size: 1.5rem;
-		margin-top: 10px;
+		margin-bottom: 10px;
+		color: white;
 	}
 
 	p {
 		margin: 5px 0;
+		color: white;
+	}
+
+	p strong {
+		color: white;
 	}
 </style>
