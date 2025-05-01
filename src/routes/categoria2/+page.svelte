@@ -18,7 +18,7 @@
 			preco: 'R$ 138,00',
 			tamanhos: ['Consultar com o fornecedor'],
 			cores: ['consultar com o fornecedor'],
-			estoque: 'Disonível',
+			estoque: 'Disponível',
 		},
 		{
 			nome: 'Cueca sem costura de microfibra',
@@ -26,7 +26,7 @@
 			preco: 'R$ 80,00',
 			tamanhos: ['Consultar com o fornecedor'],
 			cores: ['Consultar com o fornecedor'],
-			estoque: 'Disonível',
+			estoque: 'Disponível',
 		}
 	];
 

@@ -35,7 +35,7 @@
 			preco: 'R$ 230,00',
 			tamanhos: ['GG'],
 			cores: ['Bicolor'],
-			estoque: 'Disonível',
+			estoque: 'Disponível',
 		},
 		{
 			nome: 'Camisola de liganetie',

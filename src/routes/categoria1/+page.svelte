@@ -19,7 +19,7 @@
 			preco: 'R$ 192,00',
 			tamanhos: ['P'],
 			cores: ['Preto'],
-			estoque: 'Disonível',
+			estoque: 'Disponível',
 		},
 		{
 			nome: 'Conjunto renda bicolor',
@@ -27,7 +27,7 @@
 			preco: 'R$ 177,00',
 			tamanhos: ['M'],
 			cores: ['Vinho'],
-			estoque: 'Disonível',
+			estoque: 'Disponível',
 		},
 		{
 			nome: 'Conjunto de cropped',
@@ -35,7 +35,7 @@
 			preco: 'R$ 188,00',
 			tamanhos: ['M'],
 			cores: ['Vermelho'],
-			estoque: 'Disonível',
+			estoque: 'Disponível',
 		},
 		{
 			nome: 'Conjunto rendado',
@@ -51,7 +51,7 @@
 			preco: 'R$ 175,00',
 			tamanhos: ['G'],
 			cores: ['Preto'],
-			estoque: 'Disonível',
+			estoque: 'Disponível',
 		},
 		{
 			nome: 'Conjunto',
@@ -59,7 +59,7 @@
 			preco: 'R$ 178,00',
 			tamanhos: ['G'],
 			cores: ['Preto'],
-			estoque: 'Disonível',
+			estoque: 'Disponível',
 		},
 		{
 			nome: 'Conjunto com laços',
@@ -83,7 +83,7 @@
 			preco: 'R$ 176,00',
 			tamanhos: ['G'],
 			cores: ['Lavanda'],
-			estoque: 'Disonível',
+			estoque: 'Disponível',
 		},
 		{
 			nome: 'Conjunto básico',
@@ -123,7 +123,7 @@
 			preco: 'R$ 194,00',
 			tamanhos: ['G'],
 			cores: ['Preto'],
-			estoque: 'Disonível',
+			estoque: 'Disponível',
 		},
 		{
 			nome: 'Conjunto de renda',
@@ -147,7 +147,7 @@
 			preco: 'R$ 178,00',
 			tamanhos: ['GG'],
 			cores: ['Divino'],
-			estoque: 'Disonível',
+			estoque: 'Disponível',
 		},
 		{
 			nome: 'Conjunto de bojo confort',

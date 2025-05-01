@@ -18,7 +18,7 @@
 			preco: 'R$ 90,00',
 			tamanhos: ['M'],
 			cores: ['Nude'],
-			estoque: 'Disonível',
+			estoque: 'Disponível',
 		},
 		{
 			nome: 'Calcinha fio dupla com pala',
@@ -26,7 +26,7 @@
 			preco: 'R$ 58,00',
 			tamanhos: ['GG'],
 			cores: ['Nude', 'Divino', 'Azul marinho'],
-			estoque: 'Disonível',
+			estoque: 'Disponível',
 		},
 		{
 			nome: 'Calcinha Reforcada',
