@@ -11,14 +11,14 @@
 			});
 		};
 	});
-    const produtos = [
+	const produtos = [
 		{
 			nome: 'Cueca samba canção de algodão egípcio',
 			imagem: '/images/m1.jpg',
 			preco: 'R$ 138,00',
 			tamanhos: ['Consultar com o fornecedor'],
 			cores: ['consultar com o fornecedor'],
-			estoque: 'Disponível',
+			estoque: 'Disponível'
 		},
 		{
 			nome: 'Cueca sem costura de microfibra',
@@ -26,7 +26,7 @@
 			preco: 'R$ 80,00',
 			tamanhos: ['Consultar com o fornecedor'],
 			cores: ['Consultar com o fornecedor'],
-			estoque: 'Disponível',
+			estoque: 'Disponível'
 		}
 	];
 
@@ -55,7 +55,7 @@
 	>
 	<button on:click={() => (window.location.href = '/categoria4')} style="color:black"
 		>Pijamas e Camisolas</button
-		>
+	>
 	<div>
 		<label for="tamanho" style="color: black;">Selecionar Tamanho:</label>
 		<select id="tamanho" bind:value={selectedTamanho}>

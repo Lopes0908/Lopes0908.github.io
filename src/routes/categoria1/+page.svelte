@@ -19,7 +19,7 @@
 			preco: 'R$ 192,00',
 			tamanhos: ['P'],
 			cores: ['Preto'],
-			estoque: 'Disponível',
+			estoque: 'Disponível'
 		},
 		{
 			nome: 'Conjunto renda bicolor',
@@ -27,7 +27,7 @@
 			preco: 'R$ 177,00',
 			tamanhos: ['M'],
 			cores: ['Vinho'],
-			estoque: 'Disponível',
+			estoque: 'Disponível'
 		},
 		{
 			nome: 'Conjunto de cropped',
@@ -35,7 +35,7 @@
 			preco: 'R$ 188,00',
 			tamanhos: ['M'],
 			cores: ['Vermelho'],
-			estoque: 'Disponível',
+			estoque: 'Disponível'
 		},
 		{
 			nome: 'Conjunto rendado',
@@ -43,7 +43,7 @@
 			preco: 'R$ 170,00',
 			tamanhos: ['M'],
 			cores: ['Nude'],
-			estoque: 'Esgotado',
+			estoque: 'Esgotado'
 		},
 		{
 			nome: 'Conjunto com laços',
@@ -51,7 +51,7 @@
 			preco: 'R$ 175,00',
 			tamanhos: ['G'],
 			cores: ['Preto'],
-			estoque: 'Disponível',
+			estoque: 'Disponível'
 		},
 		{
 			nome: 'Conjunto',
@@ -59,7 +59,7 @@
 			preco: 'R$ 178,00',
 			tamanhos: ['G'],
 			cores: ['Preto'],
-			estoque: 'Disponível',
+			estoque: 'Disponível'
 		},
 		{
 			nome: 'Conjunto com laços',
@@ -67,7 +67,7 @@
 			preco: 'R$ 175,00',
 			tamanhos: ['M'],
 			cores: ['Divino'],
-			estoque: 'Esgotado',
+			estoque: 'Esgotado'
 		},
 		{
 			nome: 'Conjunto',
@@ -75,7 +75,7 @@
 			preco: 'R$ 230,00',
 			tamanhos: ['G'],
 			cores: ['Bicolor'],
-			estoque: 'Esgotado',
+			estoque: 'Esgotado'
 		},
 		{
 			nome: 'Conjunto com bojo soft',
@@ -83,7 +83,7 @@
 			preco: 'R$ 176,00',
 			tamanhos: ['G'],
 			cores: ['Lavanda'],
-			estoque: 'Disponível',
+			estoque: 'Disponível'
 		},
 		{
 			nome: 'Conjunto básico',
@@ -91,7 +91,7 @@
 			preco: 'R$ 180,00',
 			tamanhos: ['G', 'GG'],
 			cores: ['Nude'],
-			estoque: 'GG Esgotado',
+			estoque: 'GG Esgotado'
 		},
 		{
 			nome: 'Conjunto básico',
@@ -99,23 +99,23 @@
 			preco: 'R$ 180,00',
 			tamanhos: ['G', 'GG', 'M'],
 			cores: ['Odalisca'],
-			estoque: 'GG Esgotado',
+			estoque: 'GG e M Esgotado'
 		},
 		{
 			nome: 'Conjunto básico',
 			imagem: '/images/f12.jpg',
 			preco: 'R$ 180,00',
-			tamanhos: ['GG','M'],
+			tamanhos: ['GG', 'M'],
 			cores: ['Verde claro'],
-			estoque: 'Esgotado',
+			estoque: 'Esgotado'
 		},
 		{
 			nome: 'Conjunto Reforçado',
 			imagem: '/images/f13.jpg',
 			preco: 'R$ 194,00',
-			tamanhos: ['G','GG'],
+			tamanhos: ['G', 'GG'],
 			cores: ['Nude'],
-			estoque: 'GG Esgotado',
+			estoque: 'GG Esgotado'
 		},
 		{
 			nome: 'Conjunto Reforçado',
@@ -123,7 +123,7 @@
 			preco: 'R$ 194,00',
 			tamanhos: ['G'],
 			cores: ['Preto'],
-			estoque: 'Disponível',
+			estoque: 'Disponível'
 		},
 		{
 			nome: 'Conjunto de renda',
@@ -131,7 +131,7 @@
 			preco: 'R$ 178,00',
 			tamanhos: ['G'],
 			cores: ['Nude'],
-			estoque: 'Esgotado',
+			estoque: 'Esgotado'
 		},
 		{
 			nome: 'Conjunto de Renda',
@@ -139,7 +139,7 @@
 			preco: 'R$ 178,00',
 			tamanhos: ['M'],
 			cores: ['Verde claro'],
-			estoque: 'Esgotado',
+			estoque: 'Esgotado'
 		},
 		{
 			nome: 'Conjunto de Renda',
@@ -147,7 +147,7 @@
 			preco: 'R$ 178,00',
 			tamanhos: ['GG'],
 			cores: ['Divino'],
-			estoque: 'Disponível',
+			estoque: 'Disponível'
 		},
 		{
 			nome: 'Conjunto de bojo confort',
@@ -155,7 +155,7 @@
 			preco: 'R$ 160,00',
 			tamanhos: ['M'],
 			cores: ['Azul claro'],
-			estoque: 'Esgotado',
+			estoque: 'Esgotado'
 		},
 		{
 			nome: 'Conjunto de bojo confort',
@@ -163,7 +163,7 @@
 			preco: 'R$ 160,00',
 			tamanhos: ['M'],
 			cores: ['Rosa'],
-			estoque: 'Esgotado',
+			estoque: 'Esgotado'
 		},
 		{
 			nome: 'Conjunto de bojo confort',
@@ -171,8 +171,48 @@
 			preco: 'R$ 160,00',
 			tamanhos: ['M'],
 			cores: ['Divino'],
-			estoque: 'Esgotado',
+			estoque: 'Esgotado'
 		},
+		{
+			nome: 'Conjunto sem bojo com detalhes de rolote',
+			imagem: '/images/f21.jpg',
+			preco: 'R$ 178,00',
+			tamanhos: ['G'],
+			cores: ['Preto'],
+			estoque: 'Disponível'
+		},
+		{
+			nome: 'Conjunto sem bojo com detalhes de rolote',
+			imagem: '/images/f22.jpg',
+			preco: 'R$ 178,00',
+			tamanhos: ['M'],
+			cores: ['Divino'],
+			estoque: 'Disponível'
+		},
+		{
+			nome: 'Conjunto de tule com aro e chocker sem bojo',
+			imagem: '/images/f23.jpg',
+			preco: 'R$ 180,00',
+			tamanhos: ['M'],
+			cores: ['Preto'],
+			estoque: 'Disponível'
+		},
+		{
+			nome: 'Conjunto de tule com aro e chocker sem bojo',
+			imagem: '/images/f24.jpg',
+			preco: 'R$ 180,00',
+			tamanhos: ['G'],
+			cores: ['Divino'],
+			estoque: 'Disponível'
+		},
+		{
+			nome: 'Conjunto tomara que caia com a lateral dupla e reforçada',
+			imagem: '/images/f25.jpg',
+			preco: 'R$ 176,00',
+			tamanhos: ['M'],
+			cores: ['Preto'],
+			estoque: 'Disponível'
+		}
 	];
 
 	let selectedTamanho = '';
@@ -200,7 +240,7 @@
 	>
 	<button on:click={() => (window.location.href = '/categoria4')} style="color:black"
 		>Pijamas e Camisolas</button
-		>
+	>
 	<div>
 		<label for="tamanho" style="color: black;">Selecionar Tamanho:</label>
 		<select id="tamanho" bind:value={selectedTamanho}>

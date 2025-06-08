@@ -38,6 +38,14 @@
 			estoque: 'Disponível',
 		},
 		{
+			nome: 'Pijama Canelado',
+			imagem: '/images/p4.jpg',
+			preco: 'R$ 230,00',
+			tamanhos: ['G'],
+			cores: ['Rosa Bebê'], 
+			estoque: 'Disponível',
+		},
+		{
 			nome: 'Camisola de liganetie',
 			imagem: '/images/c1.jpg',
 			preco: 'R$ 180,00',

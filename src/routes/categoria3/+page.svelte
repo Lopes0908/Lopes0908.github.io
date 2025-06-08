@@ -11,14 +11,14 @@
 			});
 		};
 	});
-    const produtos = [
+	const produtos = [
 		{
 			nome: 'Sutiã nadador',
 			imagem: '/images/fa1.jpg',
 			preco: 'R$ 90,00',
 			tamanhos: ['M'],
 			cores: ['Nude'],
-			estoque: 'Disponível',
+			estoque: 'Disponível'
 		},
 		{
 			nome: 'Calcinha fio dupla com pala',
@@ -26,7 +26,7 @@
 			preco: 'R$ 58,00',
 			tamanhos: ['GG'],
 			cores: ['Nude', 'Divino', 'Azul marinho'],
-			estoque: 'Disponível',
+			estoque: 'Disponível'
 		},
 		{
 			nome: 'Calcinha Reforcada',
@@ -34,8 +34,25 @@
 			preco: 'R$ 60,00',
 			tamanhos: ['M'],
 			cores: ['Nude', 'Romance', 'Preto'],
-			estoque: 'Esgotado',
+			estoque: 'Esgotado'
+		}
+		,
+		{
+			nome: 'Calcinha avulsa fio duplo',
+			imagem: '/images/fa4.jpg',
+			preco: 'R$ 46,00',
+			tamanhos: ['GG'],
+			cores: ['Divino'],
+			estoque: 'Disponível'
 		},
+		{
+			nome: 'Calcinha avulsa fio duplo',
+			imagem: '/images/fa5.jpg',
+			preco: 'R$ 48,00',
+			tamanhos: ['GG'],
+			cores: ['Romance'],
+			estoque: 'Disponível'
+		}
 	];
 
 	let selectedTamanho = '';
@@ -61,9 +78,9 @@
 	<button on:click={() => (window.location.href = '/categoria2')} style="color:black"
 		>Peças Masculinas</button
 	>
-    <button on:click={() => (window.location.href = '/categoria4')} style="color:black"
+	<button on:click={() => (window.location.href = '/categoria4')} style="color:black"
 		>Pijamas e Camisolas</button
-		>
+	>
 	<div>
 		<label for="tamanho" style="color: black;">Selecionar Tamanho:</label>
 		<select id="tamanho" bind:value={selectedTamanho}>
