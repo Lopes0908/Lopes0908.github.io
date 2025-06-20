@@ -38,14 +38,6 @@
 			estoque: 'Disponível'
 		},
 		{
-			nome: 'Conjunto rendado',
-			imagem: '/images/f4.jpg',
-			preco: 'R$ 170,00',
-			tamanhos: ['M'],
-			cores: ['Nude'],
-			estoque: 'Esgotado'
-		},
-		{
 			nome: 'Conjunto com laços',
 			imagem: '/images/f5.jpg',
 			preco: 'R$ 175,00',
@@ -60,22 +52,6 @@
 			tamanhos: ['G'],
 			cores: ['Preto'],
 			estoque: 'Disponível'
-		},
-		{
-			nome: 'Conjunto com laços',
-			imagem: '/images/f7.jpg',
-			preco: 'R$ 175,00',
-			tamanhos: ['M'],
-			cores: ['Divino'],
-			estoque: 'Esgotado'
-		},
-		{
-			nome: 'Conjunto',
-			imagem: '/images/f8.jpg',
-			preco: 'R$ 230,00',
-			tamanhos: ['G'],
-			cores: ['Bicolor'],
-			estoque: 'Esgotado'
 		},
 		{
 			nome: 'Conjunto com bojo soft',
@@ -102,14 +78,6 @@
 			estoque: 'GG e M Esgotado'
 		},
 		{
-			nome: 'Conjunto básico',
-			imagem: '/images/f12.jpg',
-			preco: 'R$ 180,00',
-			tamanhos: ['GG', 'M'],
-			cores: ['Verde claro'],
-			estoque: 'Esgotado'
-		},
-		{
 			nome: 'Conjunto Reforçado',
 			imagem: '/images/f13.jpg',
 			preco: 'R$ 194,00',
@@ -126,52 +94,12 @@
 			estoque: 'Disponível'
 		},
 		{
-			nome: 'Conjunto de renda',
-			imagem: '/images/f15.jpg',
-			preco: 'R$ 178,00',
-			tamanhos: ['G'],
-			cores: ['Nude'],
-			estoque: 'Esgotado'
-		},
-		{
-			nome: 'Conjunto de Renda',
-			imagem: '/images/f16.jpg',
-			preco: 'R$ 178,00',
-			tamanhos: ['M'],
-			cores: ['Verde claro'],
-			estoque: 'Esgotado'
-		},
-		{
 			nome: 'Conjunto de Renda',
 			imagem: '/images/f17.jpg',
 			preco: 'R$ 178,00',
 			tamanhos: ['GG'],
 			cores: ['Divino'],
 			estoque: 'Disponível'
-		},
-		{
-			nome: 'Conjunto de bojo confort',
-			imagem: '/images/f18.jpg',
-			preco: 'R$ 160,00',
-			tamanhos: ['M'],
-			cores: ['Azul claro'],
-			estoque: 'Esgotado'
-		},
-		{
-			nome: 'Conjunto de bojo confort',
-			imagem: '/images/f19.jpg',
-			preco: 'R$ 160,00',
-			tamanhos: ['M'],
-			cores: ['Rosa'],
-			estoque: 'Esgotado'
-		},
-		{
-			nome: 'Conjunto de bojo confort',
-			imagem: '/images/f20.jpg',
-			preco: 'R$ 160,00',
-			tamanhos: ['M'],
-			cores: ['Divino'],
-			estoque: 'Esgotado'
 		},
 		{
 			nome: 'Conjunto sem bojo com detalhes de rolote',
@@ -182,27 +110,11 @@
 			estoque: 'Disponível'
 		},
 		{
-			nome: 'Conjunto sem bojo com detalhes de rolote',
-			imagem: '/images/f22.jpg',
-			preco: 'R$ 178,00',
-			tamanhos: ['M'],
-			cores: ['Divino'],
-			estoque: 'Disponível'
-		},
-		{
 			nome: 'Conjunto de tule com aro e chocker sem bojo',
 			imagem: '/images/f23.jpg',
 			preco: 'R$ 180,00',
 			tamanhos: ['M'],
 			cores: ['Preto'],
-			estoque: 'Disponível'
-		},
-		{
-			nome: 'Conjunto de tule com aro e chocker sem bojo',
-			imagem: '/images/f24.jpg',
-			preco: 'R$ 180,00',
-			tamanhos: ['G'],
-			cores: ['Divino'],
 			estoque: 'Disponível'
 		},
 		{

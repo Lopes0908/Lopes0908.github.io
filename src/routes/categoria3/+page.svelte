@@ -29,15 +29,6 @@
 			estoque: 'Disponível'
 		},
 		{
-			nome: 'Calcinha Reforcada',
-			imagem: '/images/fa3.jpg',
-			preco: 'R$ 60,00',
-			tamanhos: ['M'],
-			cores: ['Nude', 'Romance', 'Preto'],
-			estoque: 'Esgotado'
-		}
-		,
-		{
 			nome: 'Calcinha avulsa fio duplo',
 			imagem: '/images/fa4.jpg',
 			preco: 'R$ 46,00',

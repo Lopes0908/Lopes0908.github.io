@@ -13,23 +13,6 @@
 	});
     const produtos = [
 		{
-		    nome: 'Pijama Canelado',
-			imagem: '/images/p1.jpg',
-			estoque: 'Em estoque',
-			preco: 'R$ 230,00',
-			tamanhos: ['M'],
-			cores: ['Verde'],
-			estoque: 'Esgotado',
-		},
-		{
-			nome: 'Pijama Canelado',
-			imagem: '/images/p2.jpg',
-			preco: 'R$ 230,00',
-			tamanhos: ['G'],
-			cores: ['Bicolor'],
-			estoque: 'Esgotado',
-		},
-		{
 			nome: 'Pijama Canelado',
 			imagem: '/images/p3.jpg',
 			preco: 'R$ 230,00',
@@ -44,22 +27,6 @@
 			tamanhos: ['G'],
 			cores: ['Rosa Bebê'], 
 			estoque: 'Disponível',
-		},
-		{
-			nome: 'Camisola de liganetie',
-			imagem: '/images/c1.jpg',
-			preco: 'R$ 180,00',
-			tamanhos: ['G'],
-			cores: ['Sandia'],
-			estoque: 'Esgotado',
-		},
-		{
-			nome: 'Camisola de liganetie',
-			imagem: '/images/c2.jpg',
-			preco: 'R$ 180,00',
-			tamanhos: ['M'],
-			cores: ['Lichia'],
-			estoque: 'Esgotado',
 		},
 	];
 
