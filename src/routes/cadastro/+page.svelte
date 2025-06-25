@@ -6,12 +6,24 @@
     let foto: string | null = null;
     let personagens: { nome: string; raca: string; classe: string; foto: string | null }[] = [];
     let mostrarLista = false;
+    let urlCompartilhamento: string | null = null;
 
-    // Carregar personagens do localStorage ao iniciar
+    // Carregar personagens do localStorage ou da URL ao iniciar
     onMount(() => {
-        const dados = localStorage.getItem('personagens');
-        if (dados) {
-            personagens = JSON.parse(dados);
+        const params = new URLSearchParams(window.location.search);
+        const dadosUrl = params.get('dados');
+        if (dadosUrl) {
+            try {
+                personagens = JSON.parse(decodeURIComponent(atob(dadosUrl)));
+                mostrarLista = true;
+            } catch (e) {
+                alert('Erro ao carregar personagens compartilhados.');
+            }
+        } else {
+            const dados = localStorage.getItem('personagens');
+            if (dados) {
+                personagens = JSON.parse(dados);
+            }
         }
     });
 
@@ -51,6 +63,16 @@
     function deletarPersonagem(index: number) {
         personagens = personagens.filter((_, i) => i !== index);
         localStorage.setItem('personagens', JSON.stringify(personagens));
+    }
+
+    function gerarUrlCompartilhamento() {
+        const dados = encodeURIComponent(btoa(JSON.stringify(personagens)));
+        urlCompartilhamento = `${window.location.origin}${window.location.pathname}?dados=${dados}`;
+    }
+
+    function copiarUrl(url: string) {
+        navigator.clipboard.writeText(url);
+        alert('URL copiada!');
     }
 </script>
 
@@ -103,6 +125,16 @@
         </ul>
     {/if}
     <button on:click={voltarCadastro} style="margin-top: 1em;">Voltar ao Cadastro</button>
+{/if}
+
+{#if personagens.length > 0}
+    <button on:click={gerarUrlCompartilhamento} style="margin-top: 1em;">Gerar URL de Compartilhamento</button>
+{/if}
+{#if urlCompartilhamento}
+    <div style="margin-top: 0.5em;">
+        <input type="text" readonly value={urlCompartilhamento} style="width: 80%;" />
+        <button on:click={() => copiarUrl(urlCompartilhamento)}>Copiar</button>
+    </div>
 {/if}
 
 <style>
