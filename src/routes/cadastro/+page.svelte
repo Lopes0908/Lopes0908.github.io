@@ -3,7 +3,8 @@
     let nome = '';
     let raca = '';
     let classe = '';
-    let personagens: { nome: string; raca: string; classe: string }[] = [];
+    let foto: string | null = null;
+    let personagens: { nome: string; raca: string; classe: string; foto: string | null }[] = [];
     let mostrarLista = false;
 
     // Carregar personagens do localStorage ao iniciar
@@ -14,13 +15,27 @@
         }
     });
 
+    function handleFotoChange(event: Event) {
+        const file = (event.target as HTMLInputElement).files?.[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                foto = e.target?.result as string;
+            };
+            reader.readAsDataURL(file);
+        } else {
+            foto = null;
+        }
+    }
+
     function cadastrar() {
         if (nome && raca && classe) {
-            personagens = [...personagens, { nome, raca, classe }];
+            personagens = [...personagens, { nome, raca, classe, foto }];
             localStorage.setItem('personagens', JSON.stringify(personagens));
             nome = '';
             raca = '';
             classe = '';
+            foto = null;
             alert('Personagem cadastrado com sucesso!');
         }
     }
@@ -31,6 +46,11 @@
 
     function voltarCadastro() {
         mostrarLista = false;
+    }
+
+    function deletarPersonagem(index: number) {
+        personagens = personagens.filter((_, i) => i !== index);
+        localStorage.setItem('personagens', JSON.stringify(personagens));
     }
 </script>
 
@@ -52,6 +72,16 @@
             <input bind:value={classe} required />
         </label>
         <br />
+        <label>
+            Foto de Perfil:
+            <input type="file" accept="image/*" on:change={handleFotoChange} />
+        </label>
+        {#if foto}
+            <div style="margin-top:0.5em;">
+                <img src={foto} alt="Prévia da foto" style="max-width: 100px; max-height: 100px; border-radius: 8px;" />
+            </div>
+        {/if}
+        <br />
         <button type="submit">Cadastrar</button>
     </form>
     <button on:click={mostrarPersonagens} style="margin-top: 1em;">Ver Personagens</button>
@@ -61,8 +91,14 @@
         <p>Nenhum personagem cadastrado.</p>
     {:else}
         <ul>
-            {#each personagens as p}
-                <li><strong>{p.nome}</strong> - {p.raca} - {p.classe}</li>
+            {#each personagens as p, i}
+                <li>
+                    {#if p.foto}
+                        <img src={p.foto} alt="Foto de perfil" style="width:40px; height:40px; object-fit:cover; border-radius:50%; vertical-align:middle; margin-right:0.5em;" />
+                    {/if}
+                    <strong>{p.nome}</strong> - {p.raca} - {p.classe}
+                    <button on:click={() => deletarPersonagem(i)} style="margin-left: 1em;">Deletar</button>
+                </li>
             {/each}
         </ul>
     {/if}
@@ -79,5 +115,14 @@
     }
     input {
         margin-left: 0.5em;
+    }
+    ul {
+        padding-left: 1em;
+    }
+    li {
+        margin-bottom: 0.5em;
+    }
+    button {
+        cursor: pointer;
     }
 </style>
