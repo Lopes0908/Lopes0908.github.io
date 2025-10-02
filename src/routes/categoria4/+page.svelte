@@ -18,7 +18,6 @@
 			preco: 'R$ 230,00',
 			tamanhos: ['GG'],
 			cores: ['Bicolor'],
-			estoque: 'Disponível',
 		},
 		{
 			nome: 'Pijama Canelado',
@@ -26,7 +25,6 @@
 			preco: 'R$ 230,00',
 			tamanhos: ['G'],
 			cores: ['Rosa Bebê'], 
-			estoque: 'Disponível',
 		},
 	];
 
