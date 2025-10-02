@@ -1,7 +1,6 @@
 <script>
 	export let nome = '';
 	export let imagem = '';
-	export let estoque = '';
 	export let preco = 0;
 	export let tamanhos = [];
 	export let cores = [];
@@ -11,7 +10,6 @@
 	<img src={imagem} alt={nome} />
 	<div class="produto-info">
 		<h2>{nome}</h2>
-		<p><strong>Estoque:</strong> {estoque}</p>
 		<p><strong>Preço:</strong> {preco}</p>
 		<p><strong>Tamanhos:</strong> {tamanhos.join(', ')}</p>
 		<p><strong>Cores:</strong> {cores.join(', ')}</p>
@@ -38,7 +36,7 @@
 		transform: translateY(-5px);
 		box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 	}
-    .produto:active {
+	.produto:active {
 		transform: translateY(5px);
 		box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
 	}

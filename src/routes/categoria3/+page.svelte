@@ -21,14 +21,6 @@
 			estoque: 'Disponível'
 		},
 		{
-			nome: 'Calcinha fio dupla com pala',
-			imagem: '/images/fa2.jpg',
-			preco: 'R$ 58,00',
-			tamanhos: ['GG'],
-			cores: ['Nude', 'Divino', 'Azul marinho'],
-			estoque: 'Disponível'
-		},
-		{
 			nome: 'Calcinha avulsa fio duplo',
 			imagem: '/images/fa4.jpg',
 			preco: 'R$ 46,00',

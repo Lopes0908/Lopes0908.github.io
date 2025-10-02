@@ -14,20 +14,11 @@
 
 	const produtos = [
 		{
-			nome: 'Conjunto',
-			imagem: '/images/f1.jpg',
-			preco: 'R$ 192,00',
-			tamanhos: ['P'],
-			cores: ['Preto'],
-			estoque: 'Disponível'
-		},
-		{
 			nome: 'Conjunto renda bicolor',
 			imagem: '/images/f2.jpg',
 			preco: 'R$ 177,00',
 			tamanhos: ['M'],
 			cores: ['Vinho'],
-			estoque: 'Disponível'
 		},
 		{
 			nome: 'Conjunto de cropped',
@@ -35,7 +26,6 @@
 			preco: 'R$ 188,00',
 			tamanhos: ['M'],
 			cores: ['Vermelho'],
-			estoque: 'Disponível'
 		},
 		{
 			nome: 'Conjunto com laços',
@@ -43,7 +33,6 @@
 			preco: 'R$ 175,00',
 			tamanhos: ['G'],
 			cores: ['Preto'],
-			estoque: 'Disponível'
 		},
 		{
 			nome: 'Conjunto',
@@ -51,7 +40,6 @@
 			preco: 'R$ 178,00',
 			tamanhos: ['G'],
 			cores: ['Preto'],
-			estoque: 'Disponível'
 		},
 		{
 			nome: 'Conjunto com bojo soft',
@@ -59,47 +47,34 @@
 			preco: 'R$ 176,00',
 			tamanhos: ['G'],
 			cores: ['Lavanda'],
-			estoque: 'Disponível'
 		},
 		{
 			nome: 'Conjunto básico',
 			imagem: '/images/f10.jpg',
 			preco: 'R$ 180,00',
-			tamanhos: ['G', 'GG'],
+			tamanhos: ['G'],
 			cores: ['Nude'],
-			estoque: 'GG Esgotado'
 		},
 		{
 			nome: 'Conjunto básico',
 			imagem: '/images/f11.jpg',
 			preco: 'R$ 180,00',
-			tamanhos: ['G', 'GG', 'M'],
+			tamanhos: ['G'],
 			cores: ['Odalisca'],
-			estoque: 'GG e M Esgotado'
 		},
 		{
 			nome: 'Conjunto Reforçado',
 			imagem: '/images/f13.jpg',
 			preco: 'R$ 194,00',
-			tamanhos: ['G', 'GG'],
-			cores: ['Nude'],
-			estoque: 'GG Esgotado'
-		},
-		{
-			nome: 'Conjunto Reforçado',
-			imagem: '/images/f14.jpg',
-			preco: 'R$ 194,00',
 			tamanhos: ['G'],
-			cores: ['Preto'],
-			estoque: 'Disponível'
+			cores: ['Nude'],
 		},
-		{
+        {
 			nome: 'Conjunto de Renda',
 			imagem: '/images/f17.jpg',
 			preco: 'R$ 178,00',
 			tamanhos: ['GG'],
 			cores: ['Divino'],
-			estoque: 'Disponível'
 		},
 		{
 			nome: 'Conjunto sem bojo com detalhes de rolote',
@@ -107,15 +82,6 @@
 			preco: 'R$ 178,00',
 			tamanhos: ['G'],
 			cores: ['Preto'],
-			estoque: 'Disponível'
-		},
-		{
-			nome: 'Conjunto de tule com aro e chocker sem bojo',
-			imagem: '/images/f23.jpg',
-			preco: 'R$ 180,00',
-			tamanhos: ['M'],
-			cores: ['Preto'],
-			estoque: 'Disponível'
 		},
 		{
 			nome: 'Conjunto tomara que caia com a lateral dupla e reforçada',
@@ -123,7 +89,6 @@
 			preco: 'R$ 176,00',
 			tamanhos: ['M'],
 			cores: ['Preto'],
-			estoque: 'Disponível'
 		}
 	];
 
