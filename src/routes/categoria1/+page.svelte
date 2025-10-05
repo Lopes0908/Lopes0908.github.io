@@ -178,7 +178,7 @@
 			nome: 'Conjunto top com bojo e alça larga',
 			imagem: '/images/f24.jpg',
 			preco: 'R$ 198,00',
-			tamanhos: ['48'],
+			tamanhos: ['consultar com o vendedor'],
 			cores: ['Divino'],
 		},
 		{
@@ -223,7 +223,6 @@
 			<option value="M">M</option>
 			<option value="G">G</option>
 			<option value="GG">GG</option>
-			<option value="48">48</option>
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
 
