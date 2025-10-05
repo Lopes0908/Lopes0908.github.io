@@ -1,12 +1,10 @@
-import adapter from '@sveltejs/adapter-static';
+// svelte.config.js
 export default {
   kit: {
-      adapter: adapter({
-          pages: 'build',
-          assets: 'build',
-          fallback: undefined,
-          precompress: false,
-          strict: true
-      })
+    prerender: {
+      handleHttpError: ({ status, path }) => {
+        if (status === 404) return 'warn'; // or 'ignore'
+      }
+    }
   }
-};
+}
