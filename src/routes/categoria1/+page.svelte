@@ -14,6 +14,13 @@
 
 	const produtos = [
 		{
+			nome: 'Conjunto reforçado',
+			imagem: '/images/f1.jpg',
+			preco: 'R$ 192,00',
+			tamanhos: ['M'],
+			cores: ['Marrom'],
+		},
+		{
 			nome: 'Conjunto renda bicolor',
 			imagem: '/images/f2.jpg',
 			preco: 'R$ 177,00',
@@ -26,7 +33,14 @@
 			preco: 'R$ 188,00',
 			tamanhos: ['M'],
 			cores: ['Vermelho'],
-		},
+		},   
+		{
+			nome: 'Conjunto de laise',
+			imagem: '/images/f4.jpg',
+			preco: 'R$ 168,00',
+			tamanhos: ['M'],
+			cores: ['Preto'],
+		},   
 		{
 			nome: 'Conjunto com laços',
 			imagem: '/images/f5.jpg',
@@ -40,6 +54,20 @@
 			preco: 'R$ 178,00',
 			tamanhos: ['G'],
 			cores: ['Preto'],
+		},
+		{
+			nome: 'Conjunto de bojo soft',
+			imagem: '/images/f7.jpg',
+			preco: 'R$ 178,00',
+			tamanhos: ['M'],
+			cores: ['Marrom'],
+		},
+		{
+			nome: 'Conjunto de bojo soft',
+			imagem: '/images/f8.jpg',
+			preco: 'R$ 178,00',
+			tamanhos: ['M'],
+			cores: ['Azul bebê'],
 		},
 		{
 			nome: 'Conjunto com bojo soft',
@@ -62,19 +90,68 @@
 			tamanhos: ['G'],
 			cores: ['Odalisca'],
 		},
-		{
+		        {
+			nome: 'Conjunto de tule bordado',
+			imagem: '/images/f12.jpg',
+			preco: 'R$ 178,00',
+			tamanhos: ['M'],
+			cores: ['Verde etério'],
+		},
+        {
 			nome: 'Conjunto Reforçado',
 			imagem: '/images/f13.jpg',
 			preco: 'R$ 194,00',
 			tamanhos: ['G'],
 			cores: ['Nude'],
 		},
+		        {
+			nome: 'Conjunto de tule bordado',
+			imagem: '/images/f14.jpg',
+			preco: 'R$ 178,00',
+			tamanhos: ['G'],
+			cores: ['Preto'],
+		},
+		 {
+			nome: 'Conjunto de tule bordado',
+			imagem: '/images/f15.jpg',
+			preco: 'R$ 178,00',
+			tamanhos: ['GG'],
+			cores: ['Divino'],
+		},
+		 {
+			nome: 'Conjunto croped de renda',
+			imagem: '/images/f16.jpg',
+			preco: 'R$ 186,00',
+			tamanhos: ['G'],
+			cores: ['Marrom'],
+		},
         {
-			nome: 'Conjunto de Renda',
+			nome: 'Conjunto de renda',
 			imagem: '/images/f17.jpg',
 			preco: 'R$ 178,00',
 			tamanhos: ['GG'],
 			cores: ['Divino'],
+		},
+		 {
+			nome: 'Conjunto basico',
+			imagem: '/images/f18.jpg',
+			preco: 'R$ 176,00',
+			tamanhos: ['G'],
+			cores: ['Divino'],
+		},
+		 {
+			nome: 'Conjunto basico',
+			imagem: '/images/f19.jpg',
+			preco: 'R$ 176,00',
+			tamanhos: ['M','G'],
+			cores: ['Marrom'],
+		},
+		 {
+			nome: 'Conjunto tomara que caia',
+			imagem: '/images/f20.jpg',
+			preco: 'R$ 176,00',
+			tamanhos: ['G'],
+			cores: ['Nude'],
 		},
 		{
 			nome: 'Conjunto sem bojo com detalhes de rolote',
@@ -82,6 +159,27 @@
 			preco: 'R$ 178,00',
 			tamanhos: ['G'],
 			cores: ['Preto'],
+		},
+		{
+			nome: 'Conjunto basico calcinha alta',
+			imagem: '/images/f22.jpg',
+			preco: 'R$ 180,00',
+			tamanhos: ['GG'],
+			cores: ['Nude'],
+		},
+		{
+			nome: 'Conjunto basico calcinha alta',
+			imagem: '/images/f23.jpg',
+			preco: 'R$ 180,00',
+			tamanhos: ['GG'],
+			cores: ['verde etério'],
+		},
+		{
+			nome: 'Conjunto top com bojo e alça larga',
+			imagem: '/images/f24.jpg',
+			preco: 'R$ 198,00',
+			tamanhos: ['48'],
+			cores: ['Divino'],
 		},
 		{
 			nome: 'Conjunto tomara que caia com a lateral dupla e reforçada',
@@ -123,28 +221,25 @@
 		<select id="tamanho" bind:value={selectedTamanho}>
 			<option value="">Todos</option>
 			<option value="M">M</option>
-			<option value="P">P</option>
 			<option value="G">G</option>
 			<option value="GG">GG</option>
+			<option value="48">48</option>
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
 
 		<label for="cor" style="color: black;">Selecionar Cor:</label>
 		<select id="cor" bind:value={selectedCor}>
 			<option value="">Todas</option>
-			<option value="Nude">Nude</option>
-			<option value="Bicolor">Bicolor</option>
+			<option value="Marrom">Marrom</option>
+			<option value="Vinho">Vinho</option>
 			<option value="Vermelho">Vermelho</option>
 			<option value="Preto">Preto</option>
-			<option value="Vinho">Vinho</option>
-			<option value="Divino">Divino</option>
+			<option value="Azul bebê">Azul bebê</option>
 			<option value="Lavanda">Lavanda</option>
+			<option value="Nude">Nude</option>
 			<option value="Odalisca">Odalisca</option>
-			<option value="Verde claro">Verde claro</option>
-			<option value="Azul claro">Azul claro</option>
-			<option value="Azul marinho">Azul marinho</option>
-			<option value="Romance">Romance</option>
-			<option value="Preto">Preto</option>
+			<option value="Verde etério">Verde etério</option>
+			<option value="Divino">Divino</option>
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
 	</div>

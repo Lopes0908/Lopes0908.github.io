@@ -18,7 +18,20 @@
 			preco: 'R$ 90,00',
 			tamanhos: ['M'],
 			cores: ['Nude'],
-			estoque: 'Disponível'
+		},
+		{
+			nome: 'Fio de renda, alça com regulagem',
+			imagem: '/images/fa2.jpg',
+			preco: 'R$ 45,00',
+			tamanhos: ['M'],
+			cores: ['Marrom'],
+		},
+		{
+			nome: 'calcinha avulsa',
+			imagem: '/images/fa3.jpg',
+			preco: 'R$ 52,00',
+			tamanhos: ['M'],
+			cores: ['Preto','Desejo','Nude','Marrom'],
 		},
 		{
 			nome: 'Calcinha avulsa fio duplo',
@@ -26,7 +39,6 @@
 			preco: 'R$ 46,00',
 			tamanhos: ['GG'],
 			cores: ['Divino'],
-			estoque: 'Disponível'
 		},
 		{
 			nome: 'Calcinha avulsa fio duplo',
@@ -34,8 +46,7 @@
 			preco: 'R$ 48,00',
 			tamanhos: ['GG'],
 			cores: ['Romance'],
-			estoque: 'Disponível'
-		}
+		},
 	];
 
 	let selectedTamanho = '';
@@ -69,6 +80,7 @@
 		<select id="tamanho" bind:value={selectedTamanho}>
 			<option value="">Todos</option>
 			<option value="M">M</option>
+			<option value="G">G</option>
 			<option value="GG">GG</option>
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
@@ -77,10 +89,11 @@
 		<select id="cor" bind:value={selectedCor}>
 			<option value="">Todos</option>
 			<option value="Nude">Nude</option>
-			<option value="Divino">Divino</option>
-			<option value="Azul marinho">Azul marinho</option>
-			<option value="Romance">Romance</option>
+			<option value="Marrom">Marrom</option>
 			<option value="Preto">Preto</option>
+			<option value="Desejo">Desejo</option>
+			<option value="Divino">Divino</option>
+			<option value="Romance">Romance</option>
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
 	</div>
