@@ -62,14 +62,7 @@
 			tamanhos: ['M'],
 			cores: ['Marrom'],
 		},
-		{
-			nome: 'Conjunto de bojo soft',
-			imagem: '/images/f8.jpg',
-			preco: 'R$ 178,00',
-			tamanhos: ['M'],
-			cores: ['Azul bebê'],
-		},
-		{
+	{
 			nome: 'Conjunto com bojo soft',
 			imagem: '/images/f9.jpg',
 			preco: 'R$ 176,00',
@@ -138,13 +131,6 @@
 			preco: 'R$ 176,00',
 			tamanhos: ['G'],
 			cores: ['Divino'],
-		},
-		 {
-			nome: 'Conjunto basico',
-			imagem: '/images/f19.jpg',
-			preco: 'R$ 176,00',
-			tamanhos: ['M','G'],
-			cores: ['Marrom'],
 		},
 		 {
 			nome: 'Conjunto tomara que caia',
@@ -233,7 +219,6 @@
 			<option value="Vinho">Vinho</option>
 			<option value="Vermelho">Vermelho</option>
 			<option value="Preto">Preto</option>
-			<option value="Azul bebê">Azul bebê</option>
 			<option value="Lavanda">Lavanda</option>
 			<option value="Nude">Nude</option>
 			<option value="Odalisca">Odalisca</option>
