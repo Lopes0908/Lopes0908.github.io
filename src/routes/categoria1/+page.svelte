@@ -14,13 +14,6 @@
 
 	const produtos = [
 		{
-			nome: 'Conjunto reforçado',
-			imagem: '/images/f1.jpg',
-			preco: 'R$ 192,00',
-			tamanhos: ['M'],
-			cores: ['Marrom'],
-		},
-		{
 			nome: 'Conjunto renda bicolor',
 			imagem: '/images/f2.jpg',
 			preco: 'R$ 177,00',
@@ -49,55 +42,13 @@
 			cores: ['Preto'],
 		},
 		{
-			nome: 'Conjunto',
-			imagem: '/images/f6.jpg',
-			preco: 'R$ 178,00',
-			tamanhos: ['G'],
-			cores: ['Preto'],
-		},
-		{
-			nome: 'Conjunto de bojo soft',
-			imagem: '/images/f7.jpg',
-			preco: 'R$ 178,00',
-			tamanhos: ['M'],
-			cores: ['Marrom'],
-		},
-	{
 			nome: 'Conjunto com bojo soft',
 			imagem: '/images/f9.jpg',
 			preco: 'R$ 176,00',
 			tamanhos: ['G'],
 			cores: ['Lavanda'],
 		},
-		{
-			nome: 'Conjunto básico',
-			imagem: '/images/f10.jpg',
-			preco: 'R$ 180,00',
-			tamanhos: ['G'],
-			cores: ['Nude'],
-		},
-		{
-			nome: 'Conjunto básico',
-			imagem: '/images/f11.jpg',
-			preco: 'R$ 180,00',
-			tamanhos: ['G'],
-			cores: ['Odalisca'],
-		},
-		        {
-			nome: 'Conjunto de tule bordado',
-			imagem: '/images/f12.jpg',
-			preco: 'R$ 178,00',
-			tamanhos: ['M'],
-			cores: ['Verde etério'],
-		},
         {
-			nome: 'Conjunto Reforçado',
-			imagem: '/images/f13.jpg',
-			preco: 'R$ 194,00',
-			tamanhos: ['G'],
-			cores: ['Nude'],
-		},
-		        {
 			nome: 'Conjunto de tule bordado',
 			imagem: '/images/f14.jpg',
 			preco: 'R$ 178,00',
@@ -145,27 +96,6 @@
 			preco: 'R$ 178,00',
 			tamanhos: ['G'],
 			cores: ['Preto'],
-		},
-		{
-			nome: 'Conjunto basico calcinha alta',
-			imagem: '/images/f22.jpg',
-			preco: 'R$ 180,00',
-			tamanhos: ['GG'],
-			cores: ['Nude'],
-		},
-		{
-			nome: 'Conjunto basico calcinha alta',
-			imagem: '/images/f23.jpg',
-			preco: 'R$ 180,00',
-			tamanhos: ['GG'],
-			cores: ['verde etério'],
-		},
-		{
-			nome: 'Conjunto top com bojo e alça larga',
-			imagem: '/images/f24.jpg',
-			preco: 'R$ 198,00',
-			tamanhos: ['consultar com o vendedor'],
-			cores: ['Divino'],
 		},
 		{
 			nome: 'Conjunto tomara que caia com a lateral dupla e reforçada',
@@ -220,10 +150,8 @@
 			<option value="Vermelho">Vermelho</option>
 			<option value="Preto">Preto</option>
 			<option value="Lavanda">Lavanda</option>
-			<option value="Nude">Nude</option>
-			<option value="Odalisca">Odalisca</option>
-			<option value="Verde etério">Verde etério</option>
 			<option value="Divino">Divino</option>
+			<option value="Nude">Nude</option>
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
 	</div>
