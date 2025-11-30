@@ -28,30 +28,9 @@
 			cores: ['Vermelho'],
 		},   
 		{
-			nome: 'Conjunto de laise',
-			imagem: '/images/f4.jpg',
-			preco: 'R$ 168,00',
-			tamanhos: ['M'],
-			cores: ['Preto'],
-		},   
-		{
 			nome: 'Conjunto com laços',
 			imagem: '/images/f5.jpg',
 			preco: 'R$ 175,00',
-			tamanhos: ['G'],
-			cores: ['Preto'],
-		},
-		{
-			nome: 'Conjunto com bojo soft',
-			imagem: '/images/f9.jpg',
-			preco: 'R$ 176,00',
-			tamanhos: ['G'],
-			cores: ['Lavanda'],
-		},
-        {
-			nome: 'Conjunto de tule bordado',
-			imagem: '/images/f14.jpg',
-			preco: 'R$ 178,00',
 			tamanhos: ['G'],
 			cores: ['Preto'],
 		},
@@ -61,13 +40,6 @@
 			preco: 'R$ 178,00',
 			tamanhos: ['GG'],
 			cores: ['Divino'],
-		},
-		 {
-			nome: 'Conjunto croped de renda',
-			imagem: '/images/f16.jpg',
-			preco: 'R$ 186,00',
-			tamanhos: ['G'],
-			cores: ['Marrom'],
 		},
         {
 			nome: 'Conjunto de renda',
@@ -139,20 +111,16 @@
 			<option value="M">M</option>
 			<option value="G">G</option>
 			<option value="GG">GG</option>
-			<!-- Adicione mais opções conforme necessário -->
 		</select>
 
 		<label for="cor" style="color: black;">Selecionar Cor:</label>
 		<select id="cor" bind:value={selectedCor}>
 			<option value="">Todas</option>
-			<option value="Marrom">Marrom</option>
 			<option value="Vinho">Vinho</option>
 			<option value="Vermelho">Vermelho</option>
 			<option value="Preto">Preto</option>
-			<option value="Lavanda">Lavanda</option>
 			<option value="Divino">Divino</option>
 			<option value="Nude">Nude</option>
-			<!-- Adicione mais opções conforme necessário -->
 		</select>
 	</div>
 

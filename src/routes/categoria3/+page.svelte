@@ -13,25 +13,11 @@
 	});
 	const produtos = [
 		{
-			nome: 'Sutiã nadador',
-			imagem: '/images/fa1.jpg',
-			preco: 'R$ 90,00',
-			tamanhos: ['M'],
-			cores: ['Nude'],
-		},
-		{
-			nome: 'Fio de renda, alça com regulagem',
-			imagem: '/images/fa2.jpg',
-			preco: 'R$ 45,00',
-			tamanhos: ['M'],
-			cores: ['Marrom'],
-		},
-		{
 			nome: 'calcinha avulsa',
 			imagem: '/images/fa3.jpg',
 			preco: 'R$ 52,00',
 			tamanhos: ['M'],
-			cores: ['Preto','Desejo','Nude','Marrom'],
+			cores: ['Preto','Desejo','Nude'],
 		},
 		{
 			nome: 'Calcinha avulsa fio duplo',
@@ -79,21 +65,19 @@
 		<label for="tamanho" style="color: black;">Selecionar Tamanho:</label>
 		<select id="tamanho" bind:value={selectedTamanho}>
 			<option value="">Todos</option>
-			<option value="M">M</option>
-			<option value="G">G</option>
 			<option value="GG">GG</option>
+			<option value="M">M</option>
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
 
 		<label for="cor" style="color: black;">Selecionar Cor:</label>
 		<select id="cor" bind:value={selectedCor}>
 			<option value="">Todos</option>
-			<option value="Nude">Nude</option>
-			<option value="Marrom">Marrom</option>
-			<option value="Preto">Preto</option>
-			<option value="Desejo">Desejo</option>
 			<option value="Divino">Divino</option>
 			<option value="Romance">Romance</option>
+			<option value="Desejo">Desejo</option>
+			<option value="Nude">Nude</option>
+			<option value="Preto">Preto</option>
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
 	</div>
