@@ -13,39 +13,11 @@
 	});
     const produtos = [
 		{
-			nome: 'Pijama de liganeti',
-			imagem: '/images/p1.jpg',
-			preco: 'R$ 180,00',
-			tamanhos: ['GG'],
-			cores: ['Verde militar'],
-		},
-		{
-			nome: 'Pijama canelado',
-			imagem: '/images/p2.jpg',
-			preco: 'R$ 230,00',
-			tamanhos: ['GG'],
-			cores: ['Bicolor'],
-		},
-		{
 			nome: 'Pijama canelado',
 			imagem: '/images/p3.jpg',
 			preco: 'R$ 230,00',
 			tamanhos: ['G'],
 			cores: ['Rosa Bebê'], 
-		},
-		{
-			nome: 'Camisola de renda',
-			imagem: '/images/p4.jpg',
-			preco: 'R$ 238,00',
-			tamanhos: ['M'],
-			cores: ['Divino'],
-		},
-		{
-			nome: 'Camisola de renda',
-			imagem: '/images/p5.jpg',
-			preco: 'R$ 238,00',
-			tamanhos: ['M'],
-			cores: ['Preto'],
 		}
 	];
 
@@ -79,20 +51,15 @@
 		<label for="tamanho" style="color: black;">Selecionar Tamanho:</label>
 		<select id="tamanho" bind:value={selectedTamanho}>
 			<option value="">Todos</option>
-			<option value="M">M</option>
 			<option value="G">G</option>
-			<option value="GG">GG</option>
+			
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
 
 		<label for="cor" style="color: black;">Selecionar Cor:</label>
 		<select id="cor" bind:value={selectedCor}>
 			<option value="">Todos</option>
-			<option value="Bicolor">Bicolor</option>
 			<option value="Rosa Bebê">Rosa Bebê</option>
-			<option value="Divino">Divino</option>
-			<option value="Preto">Preto</option>
-			<option value="Verde militar">Verde militar</option>
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
 	</div>
