@@ -14,20 +14,6 @@
 
 	const produtos = [
 		{
-			nome: 'Conjunto renda bicolor',
-			imagem: '/images/f2.jpg',
-			preco: 'R$ 177,00',
-			tamanhos: ['M'],
-			cores: ['Vinho'],
-		},
-		{
-			nome: 'Conjunto de cropped',
-			imagem: '/images/f3.jpg',
-			preco: 'R$ 188,00',
-			tamanhos: ['M'],
-			cores: ['Vermelho'],
-		},   
-		{
 			nome: 'Conjunto com laços',
 			imagem: '/images/f5.jpg',
 			preco: 'R$ 175,00',
@@ -55,25 +41,11 @@
 			tamanhos: ['G'],
 			cores: ['Divino'],
 		},
-		 {
-			nome: 'Conjunto tomara que caia',
-			imagem: '/images/f20.jpg',
-			preco: 'R$ 176,00',
-			tamanhos: ['G'],
-			cores: ['Nude'],
-		},
 		{
 			nome: 'Conjunto sem bojo com detalhes de rolote',
 			imagem: '/images/f21.jpg',
 			preco: 'R$ 178,00',
 			tamanhos: ['G'],
-			cores: ['Preto'],
-		},
-		{
-			nome: 'Conjunto tomara que caia com a lateral dupla e reforçada',
-			imagem: '/images/f25.jpg',
-			preco: 'R$ 176,00',
-			tamanhos: ['M'],
 			cores: ['Preto'],
 		}
 	];
@@ -108,6 +80,7 @@
 		<label for="tamanho" style="color: black;">Selecionar Tamanho:</label>
 		<select id="tamanho" bind:value={selectedTamanho}>
 			<option value="">Todos</option>
+			<option value="P">P</option>
 			<option value="M">M</option>
 			<option value="G">G</option>
 			<option value="GG">GG</option>
@@ -116,11 +89,8 @@
 		<label for="cor" style="color: black;">Selecionar Cor:</label>
 		<select id="cor" bind:value={selectedCor}>
 			<option value="">Todas</option>
-			<option value="Vinho">Vinho</option>
-			<option value="Vermelho">Vermelho</option>
 			<option value="Preto">Preto</option>
 			<option value="Divino">Divino</option>
-			<option value="Nude">Nude</option>
 		</select>
 	</div>
 
