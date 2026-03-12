@@ -64,16 +64,9 @@
 		},
 		 {
 			nome: 'Conjunto reforçado',
-			imagem: '/images/f8.jpg',
-			preco: 'R$ 188,00',
-			tamanhos: ['M'],
-			cores: ['Nude'],
-		},
-		 {
-			nome: 'Conjunto reforçado',
 			imagem: '/images/f9.jpg',
 			preco: 'R$ 188,00',
-			tamanhos: ['GG','M'],
+			tamanhos: ['GG'],
 			cores: ['Preto'],
 		},
 		{
@@ -117,13 +110,6 @@
 			preco: 'R$ 178,00',
 			tamanhos: ['GG'],
 			cores: ['Divino'],
-		},
-		{
-			nome: 'Conjunto reforçado',
-			imagem: '/images/f16.jpg',
-			preco: 'R$ 188,00',
-			tamanhos: ['M'],
-			cores: ['Tâmisa'],
 		},
         {
 			nome: 'Conjunto de renda',
@@ -185,7 +171,6 @@
 		<label for="tamanho" style="color: black;">Selecionar Tamanho:</label>
 		<select id="tamanho" bind:value={selectedTamanho}>
 			<option value="">Todos</option>
-			<option value="P">P</option>
 			<option value="M">M</option>
 			<option value="G">G</option>
 			<option value="GG">GG</option>
@@ -196,16 +181,18 @@
 		<label for="cor" style="color: black;">Selecionar Cor:</label>
 		<select id="cor" bind:value={selectedCor}>
 			<option value="">Todas</option>
-			<option value="Preto">Preto</option>
 			<option value="Divino">Divino</option>
+			<option value="Branco">Branco</option>
 			<option value="Nude">Nude</option>
+			<option value="Nude com preto">Nude com preto</option>
+			<option value="Preto">Preto</option>
+			<option value="Submarino">Submarino</option>
+			<option value="Tâmisa">Tâmisa</option>
 			<option value="Capuccino">Capuccino</option>
+			<option value="Verde menta">Verde menta</option>
 			<option value="Menta com rosa">Menta com rosa</option>
 			<option value="Vermelho">Vermelho</option>
-			<option value="Tâmisa">Tâmisa</option>
-			<option value="Submarino">Submarino</option>
-			<option value="Nude com preto">Nude com preto</option>
-			<option value="Branco">Branco</option>
+			 <!-- Adicione mais opções conforme necessário -->
 		</select>
 	</div>
 
