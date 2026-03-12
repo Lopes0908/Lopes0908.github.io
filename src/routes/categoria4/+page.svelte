@@ -13,12 +13,48 @@
 	});
     const produtos = [
 		{
+			nome: 'Camisola com renda',
+			imagem: '/images/p1.jpg',
+			preco: 'R$ 248,00',
+			tamanhos: ['M'],
+			cores: ['Divino'], 
+		},
+		{
+			nome: 'Camisola com renda',
+			imagem: '/images/p2.jpg',
+			preco: 'R$ 248,00',
+			tamanhos: ['G'],
+			cores: ['Preto'],
+		},
+		{
 			nome: 'Pijama canelado',
 			imagem: '/images/p3.jpg',
 			preco: 'R$ 230,00',
 			tamanhos: ['G'],
 			cores: ['Rosa Bebê'], 
-		}
+		},
+		{
+			nome: 'Pijama de liganeti',
+			imagem: '/images/p4.jpg',
+			preco: 'R$ 188,00',
+			tamanhos: ['M','G'],
+			cores: ['Preto com Nude'], 
+		},
+		{
+			nome: 'Pijama de liganeti',
+			imagem: '/images/p5.jpg',
+			preco: 'R$ 188,00',
+			tamanhos: ['GG'],
+			cores: ['Preto'], 
+		},
+        {
+			nome: 'Body de renda forrado sem bojo',
+			imagem: '/images/p6.jpg',
+			preco: 'R$ 268,00',
+			tamanhos: ['M'],
+			cores: ['Capuccino'],
+		}                          
+
 	];
 
 	let selectedTamanho = '';
@@ -52,6 +88,8 @@
 		<select id="tamanho" bind:value={selectedTamanho}>
 			<option value="">Todos</option>
 			<option value="G">G</option>
+			<option value="M">M</option>
+			<option value="GG">GG</option>
 			
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
@@ -60,6 +98,10 @@
 		<select id="cor" bind:value={selectedCor}>
 			<option value="">Todos</option>
 			<option value="Rosa Bebê">Rosa Bebê</option>
+			<option value="Preto">Preto</option>
+			<option value="Preto com Nude">Preto com Nude</option>
+			<option value="Divino">Divino</option>
+			<option value="Capuccino">Capuccino</option>
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
 	</div>

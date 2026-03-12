@@ -13,6 +13,34 @@
 	});
 
 	const produtos = [
+        {
+			nome: 'Conjunto conforto',
+			imagem: '/images/f1.jpg',
+			preco: 'R$ 199,00',
+			tamanhos: ['48'],
+			cores: ['Divino'],
+		},
+		 {
+			nome: 'Conjunto conforto alça reforçada',
+			imagem: '/images/f2.jpg',
+			preco: 'R$ 199,00',
+			tamanhos: ['GG'],
+			cores: ['Branco'],
+		},
+		 {
+			nome: 'Conjunto conforto alça reforçada',
+			imagem: '/images/f3.jpg',
+			preco: 'R$ 199,00',
+			tamanhos: ['GG'],
+			cores: ['Nude'],
+		},
+		 {
+			nome: 'Conjunto croped',
+			imagem: '/images/f4.jpg',
+			preco: 'R$ 195,00',
+			tamanhos: ['M'],
+			cores: ['Nude com preto'],
+		},
 		{
 			nome: 'Conjunto com laços',
 			imagem: '/images/f5.jpg',
@@ -20,12 +48,82 @@
 			tamanhos: ['G'],
 			cores: ['Preto'],
 		},
+		{
+			nome: 'Conjunto croped',
+			imagem: '/images/f6.jpg',
+			preco: 'R$ 195,00',
+			tamanhos: ['GG'],
+			cores: ['Submarino'],
+		}, 
+		{
+            nome: 'Conjunto reforçado',
+			imagem: '/images/f7.jpg',
+			preco: 'R$ 188,00',
+			tamanhos: ['G'],
+			cores: ['Tâmisa'],
+		},
+		 {
+			nome: 'Conjunto reforçado',
+			imagem: '/images/f8.jpg',
+			preco: 'R$ 188,00',
+			tamanhos: ['M'],
+			cores: ['Nude'],
+		},
+		 {
+			nome: 'Conjunto reforçado',
+			imagem: '/images/f9.jpg',
+			preco: 'R$ 188,00',
+			tamanhos: ['GG','M'],
+			cores: ['Preto'],
+		},
+		{
+			nome: 'Conjunto croped de tule',
+			imagem: '/images/f10.jpg',
+			preco: 'R$ 199,00',
+			tamanhos: ['M'],
+			cores: ['Preto'],
+		},
+		{
+			nome: 'Conjunto com tecido',
+			imagem: '/images/f11.jpg',
+			preco: 'R$ 220,00',
+			tamanhos: ['M'],
+			cores: ['Verde menta'],
+		},
+		{
+			nome: 'Conjunto de renda',
+			imagem: '/images/f12.jpg',
+			preco: 'R$ 170,00',
+			tamanhos: ['M'],
+			cores: ['Capuccino'],
+		},
+		{
+			nome: 'Conjunto de renda',
+			imagem: '/images/f13.jpg',
+			preco: 'R$ 170,00',
+			tamanhos: ['M'],
+			cores: ['Menta com rosa'],
+		},
+		 {
+			nome: 'Conjunto corselete sem bojo',
+			imagem: '/images/f14.jpg',
+			preco: 'R$ 210,00',
+			tamanhos: ['M'],
+			cores: ['Capuccino'],
+		},
 		 {
 			nome: 'Conjunto de tule bordado',
 			imagem: '/images/f15.jpg',
 			preco: 'R$ 178,00',
 			tamanhos: ['GG'],
 			cores: ['Divino'],
+		},
+		{
+			nome: 'Conjunto reforçado',
+			imagem: '/images/f16.jpg',
+			preco: 'R$ 188,00',
+			tamanhos: ['M'],
+			cores: ['Tâmisa'],
 		},
         {
 			nome: 'Conjunto de renda',
@@ -40,6 +138,13 @@
 			preco: 'R$ 176,00',
 			tamanhos: ['G'],
 			cores: ['Divino'],
+		},
+		 {
+			nome: 'Conjunto de renda com liga e persex',
+			imagem: '/images/f19.jpg',
+			preco: 'R$ 268,00',
+			tamanhos: ['M'],
+			cores: ['Vermelho'],
 		},
 		{
 			nome: 'Conjunto sem bojo com detalhes de rolote',
@@ -84,6 +189,8 @@
 			<option value="M">M</option>
 			<option value="G">G</option>
 			<option value="GG">GG</option>
+			<option value="48">48</option>
+			 <!-- Adicione mais opções conforme necessário -->
 		</select>
 
 		<label for="cor" style="color: black;">Selecionar Cor:</label>
@@ -91,6 +198,14 @@
 			<option value="">Todas</option>
 			<option value="Preto">Preto</option>
 			<option value="Divino">Divino</option>
+			<option value="Nude">Nude</option>
+			<option value="Capuccino">Capuccino</option>
+			<option value="Menta com rosa">Menta com rosa</option>
+			<option value="Vermelho">Vermelho</option>
+			<option value="Tâmisa">Tâmisa</option>
+			<option value="Submarino">Submarino</option>
+			<option value="Nude com preto">Nude com preto</option>
+			<option value="Branco">Branco</option>
 		</select>
 	</div>
 
