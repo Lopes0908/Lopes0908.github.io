@@ -22,13 +22,6 @@
 		},
 		 {
 			nome: 'Conjunto conforto alça reforçada',
-			imagem: '/images/f2.jpg',
-			preco: 'R$ 199,00',
-			tamanhos: ['GG'],
-			cores: ['Branco'],
-		},
-		 {
-			nome: 'Conjunto conforto alça reforçada',
 			imagem: '/images/f3.jpg',
 			preco: 'R$ 199,00',
 			tamanhos: ['GG'],
@@ -61,27 +54,6 @@
 			preco: 'R$ 188,00',
 			tamanhos: ['G'],
 			cores: ['Tâmisa'],
-		},
-		 {
-			nome: 'Conjunto reforçado',
-			imagem: '/images/f9.jpg',
-			preco: 'R$ 188,00',
-			tamanhos: ['GG'],
-			cores: ['Preto'],
-		},
-		{
-			nome: 'Conjunto croped de tule',
-			imagem: '/images/f10.jpg',
-			preco: 'R$ 199,00',
-			tamanhos: ['M'],
-			cores: ['Preto'],
-		},
-		{
-			nome: 'Conjunto com tecido',
-			imagem: '/images/f11.jpg',
-			preco: 'R$ 220,00',
-			tamanhos: ['M'],
-			cores: ['Verde menta'],
 		},
 		{
 			nome: 'Conjunto de renda',
@@ -116,13 +88,6 @@
 			imagem: '/images/f17.jpg',
 			preco: 'R$ 178,00',
 			tamanhos: ['GG'],
-			cores: ['Divino'],
-		},
-		 {
-			nome: 'Conjunto basico',
-			imagem: '/images/f18.jpg',
-			preco: 'R$ 176,00',
-			tamanhos: ['G'],
 			cores: ['Divino'],
 		},
 		 {
@@ -182,14 +147,12 @@
 		<select id="cor" bind:value={selectedCor}>
 			<option value="">Todas</option>
 			<option value="Divino">Divino</option>
-			<option value="Branco">Branco</option>
 			<option value="Nude">Nude</option>
 			<option value="Nude com preto">Nude com preto</option>
 			<option value="Preto">Preto</option>
 			<option value="Submarino">Submarino</option>
 			<option value="Tâmisa">Tâmisa</option>
 			<option value="Capuccino">Capuccino</option>
-			<option value="Verde menta">Verde menta</option>
 			<option value="Menta com rosa">Menta com rosa</option>
 			<option value="Vermelho">Vermelho</option>
 			 <!-- Adicione mais opções conforme necessário -->

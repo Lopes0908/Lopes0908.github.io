@@ -40,13 +40,6 @@
 			tamanhos: ['M','G'],
 			cores: ['Preto com Nude'], 
 		},
-		{
-			nome: 'Pijama de liganeti',
-			imagem: '/images/p5.jpg',
-			preco: 'R$ 188,00',
-			tamanhos: ['GG'],
-			cores: ['Preto'], 
-		},
         {
 			nome: 'Body de renda forrado sem bojo',
 			imagem: '/images/p6.jpg',
@@ -87,20 +80,18 @@
 		<label for="tamanho" style="color: black;">Selecionar Tamanho:</label>
 		<select id="tamanho" bind:value={selectedTamanho}>
 			<option value="">Todos</option>
-			<option value="G">G</option>
 			<option value="M">M</option>
-			<option value="GG">GG</option>
-			
+			<option value="G">G</option>
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
 
 		<label for="cor" style="color: black;">Selecionar Cor:</label>
 		<select id="cor" bind:value={selectedCor}>
 			<option value="">Todos</option>
-			<option value="Rosa Bebê">Rosa Bebê</option>
-			<option value="Preto">Preto</option>
-			<option value="Preto com Nude">Preto com Nude</option>
 			<option value="Divino">Divino</option>
+			<option value="Preto">Preto</option>
+			<option value="Rosa Bebê">Rosa Bebê</option>
+			<option value="Preto com Nude">Preto com Nude</option>
 			<option value="Capuccino">Capuccino</option>
 			<!-- Adicione mais opções conforme necessário -->
 		</select>
