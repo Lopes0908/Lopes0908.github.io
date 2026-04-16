@@ -31,7 +31,7 @@
 			nome: 'Conjunto croped',
 			imagem: '/images/f4.jpg',
 			preco: 'R$ 195,00',
-			tamanhos: ['M'],
+			tamanhos: ['G'],
 			cores: ['Nude com preto'],
 		},
 		{
