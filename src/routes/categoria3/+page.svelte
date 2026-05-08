@@ -13,6 +13,13 @@
 	});
 	const produtos = [
 		{
+			nome: 'calcinha de renda',
+			imagem: '/images/fa2.jpg',
+			preco: 'R$ 48,00',
+			tamanhos: ['M'],
+			cores: ['Divino'],
+		},
+		{
 			nome: 'calcinha avulsa',
 			imagem: '/images/fa3.jpg',
 			preco: 'R$ 52,00',
