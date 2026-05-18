@@ -57,13 +57,6 @@
 		}, 
 		{
             nome: 'Conjunto reforçado',
-			imagem: '/images/f7.jpg',
-			preco: 'R$ 188,00',
-			tamanhos: ['G'],
-			cores: ['Tâmisa'],
-		},
-		{
-            nome: 'Conjunto reforçado',
 			imagem: '/images/f8.jpg',
 			preco: 'R$ 198,00',
 			tamanhos: ['M'],
@@ -75,13 +68,6 @@
 			preco: 'R$ 198,00',
 			tamanhos: ['G'],
 			cores: ['Preto'],
-		},
-		{
-            nome: 'Conjunto; básico com laterais largas',
-			imagem: '/images/f10.jpg',
-			preco: 'R$ 188,00',
-			tamanhos: ['M','G'],											
-			cores: ['Nude'],
 		},
 		{
             nome: 'Conjunto; básico com laterais largas',
@@ -124,13 +110,6 @@
 			preco: 'R$ 188,00',
 			tamanhos: ['G','M'],
 			cores: ['Preto'],
-		},
-        {
-			nome: 'Conjunto de renda',
-			imagem: '/images/f17.jpg',
-			preco: 'R$ 178,00',
-			tamanhos: ['GG'],
-			cores: ['Divino'],
 		},
 		{
 			nome: 'Conjunto; básico com laterais largas',
